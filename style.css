@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Courier Prime";
+  src: url("fonts/CourierPrime-Regular.ttf") format("truetype");
+}
+body {
+    background: #D2BCC2; /* your chosen pink */
+    font-family: "Courier Prime", monospace;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    border: 3px solid #111;
+    border-radius: 25px;
+    padding: 40px;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+  
+  .smile {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
